@@ -1,0 +1,36 @@
+GetRecreationArea details about {RecArea}
+GetRecreationArea details for {RecArea}
+GetRecreationArea info about {RecArea}
+GetRecreationArea info for {RecArea}
+GetRecreationArea more about {RecArea}
+GetRecreationArea {RecArea}
+GetRecreationAreas recreation areas
+GetRecreationAreas recreation sites
+GetRecreationAreasForCity recreation areas in {City}
+GetRecreationAreasForCity recreation areas in {City} within {Radius} miles
+GetRecreationAreasForCity recreation areas in {Radius} miles of {City}
+GetRecreationAreasForCity recreation areas in {Radius} miles {City}
+GetRecreationAreasForCity recreation areas within {Radius} miles of {City}
+GetRecreationAreasForCity recreation areas within {Radius} miles {City}
+GetRecreationAreasForCity recreation areas {City}
+GetRecreationAreasForCity recreation areas {City} within {Radius} miles
+GetRecreationAreasForCity recreation sites in {City}
+GetRecreationAreasForCity recreation sites in {City} within {Radius} miles
+GetRecreationAreasForCity recreation sites in {Radius} miles of {City}
+GetRecreationAreasForCity recreation sites in {Radius} miles {City}
+GetRecreationAreasForCity recreation sites within {Radius} miles of {City}
+GetRecreationAreasForCity recreation sites within {Radius} miles {City}
+GetRecreationAreasForCity recreation sites {City}
+GetRecreationAreasForCity recreation sites {City} within {Radius} miles
+GetRecreationAreasForCity {City}
+GetRecreationAreasForCity {City} within {Radius} miles
+GetRecreationAreasForState recreation areas in state of {State}
+GetRecreationAreasForState recreation areas in the state of {State}
+GetRecreationAreasForState recreation areas state of {State}
+GetRecreationAreasForState recreation areas the state of {State}
+GetRecreationAreasForState recreation sites in state of {State}
+GetRecreationAreasForState recreation sites in the state of {State}
+GetRecreationAreasForState recreation sites state of {State}
+GetRecreationAreasForState recreation sites the state of {State}
+GetRecreationAreasForState state of {State}
+GetRecreationAreasForState the state of {State}

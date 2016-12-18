@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.79.0",
+    "sbd": "^1.0.11",
+    "string-similarity": "^1.1.0",
     "underscore": "^1.8.3"
   }
 }
