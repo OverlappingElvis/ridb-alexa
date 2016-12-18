@@ -49,13 +49,13 @@ var getRecreationAreas = function(intent, session, response) {
 	});
 };
 
-// Extend AlexaSkill
+// Extend AlexaSkill, thank you Amazon for a solid Hello World to start from.
 RecreationSites.prototype = Object.create(AlexaSkill.prototype);
 RecreationSites.prototype.constructor = RecreationSites;
 
+// Boilerplate
 RecreationSites.prototype.eventHandlers.onSessionStarted = function (sessionStartedRequest, session) {
 	console.log('RecreationSites onSessionStarted requestId: ' + sessionStartedRequest.requestId + ', sessionId: ' + session.sessionId);
-	// any initialization logic goes here
 };
 
 RecreationSites.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
@@ -63,9 +63,9 @@ RecreationSites.prototype.eventHandlers.onLaunch = function (launchRequest, sess
 	getRecreationAreas(null, session, response);
 };
 
+// Boilerplate
 RecreationSites.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, session) {
 	console.log('RecreationSites onSessionEnded requestId: ' + sessionEndedRequest.requestId + ', sessionId: ' + session.sessionId);
-	// any cleanup logic goes here
 };
 
 var getRecreationAreasForState = function(intent, session, response) {
@@ -138,7 +138,7 @@ var getRecreationAreasForCity = function(intent, session, response) {
 	});
 };
 
-// Get details for a specified recreation area
+// Get details for a specified recreation area and ask if the user wants directions.
 var getRecreationArea = function(intent, session, response) {
 	var recAreaSlot = intent.slots.RecArea;
 	if (!recAreaSlot || !recAreaSlot.value) {
@@ -161,6 +161,7 @@ var getRecreationArea = function(intent, session, response) {
 	response.ask(name + ': ' + sbd.sentences(description)[0] + ' Would you like directions to ' + name + '?');
 };
 
+// Send directions to the Alexa app
 var giveDirections = function(intent, session, response) {
 	var currentArea = session.attributes.currentArea;
 	if (!currentArea) {
