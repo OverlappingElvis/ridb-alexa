@@ -10,6 +10,8 @@ GetRecreationAreasForCity recreation areas in {City}
 GetRecreationAreasForCity recreation areas in {City} within {Radius} miles
 GetRecreationAreasForCity recreation areas in {Radius} miles of {City}
 GetRecreationAreasForCity recreation areas in {Radius} miles {City}
+GetRecreationAreasForCity recreation areas near {City}
+GetRecreationAreasForCity recreation areas near {City} within {Radius} miles
 GetRecreationAreasForCity recreation areas within {Radius} miles of {City}
 GetRecreationAreasForCity recreation areas within {Radius} miles {City}
 GetRecreationAreasForCity recreation areas {City}
@@ -18,6 +20,8 @@ GetRecreationAreasForCity recreation sites in {City}
 GetRecreationAreasForCity recreation sites in {City} within {Radius} miles
 GetRecreationAreasForCity recreation sites in {Radius} miles of {City}
 GetRecreationAreasForCity recreation sites in {Radius} miles {City}
+GetRecreationAreasForCity recreation sites near {City}
+GetRecreationAreasForCity recreation sites near {City} within {Radius} miles
 GetRecreationAreasForCity recreation sites within {Radius} miles of {City}
 GetRecreationAreasForCity recreation sites within {Radius} miles {City}
 GetRecreationAreasForCity recreation sites {City}
