@@ -4,6 +4,7 @@ GetRecreationArea info about {RecArea}
 GetRecreationArea info for {RecArea}
 GetRecreationArea more about {RecArea}
 GetRecreationArea {RecArea}
+GetRecreationAreas recreation
 GetRecreationAreas recreation areas
 GetRecreationAreas recreation sites
 GetRecreationAreasForCity recreation areas in {City}
@@ -30,11 +31,22 @@ GetRecreationAreasForCity {City}
 GetRecreationAreasForCity {City} within {Radius} miles
 GetRecreationAreasForState recreation areas in state of {State}
 GetRecreationAreasForState recreation areas in the state of {State}
+GetRecreationAreasForState recreation areas in {State} state
 GetRecreationAreasForState recreation areas state of {State}
 GetRecreationAreasForState recreation areas the state of {State}
+GetRecreationAreasForState recreation areas {State} state
+GetRecreationAreasForState recreation in state of {State}
+GetRecreationAreasForState recreation in the state of {State}
+GetRecreationAreasForState recreation in {State} state
 GetRecreationAreasForState recreation sites in state of {State}
 GetRecreationAreasForState recreation sites in the state of {State}
+GetRecreationAreasForState recreation sites in {State} state
 GetRecreationAreasForState recreation sites state of {State}
 GetRecreationAreasForState recreation sites the state of {State}
+GetRecreationAreasForState recreation sites {State} state
+GetRecreationAreasForState recreation state of {State}
+GetRecreationAreasForState recreation the state of {State}
+GetRecreationAreasForState recreation {State} state
 GetRecreationAreasForState state of {State}
 GetRecreationAreasForState the state of {State}
+GetRecreationAreasForState {State} state

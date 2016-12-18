@@ -128,7 +128,7 @@ var getRecreationAreasForCity = function(intent, session, response) {
 				return response.tell('Sorry, r.i.d.b. couldn\'t find any recreation areas within ' + radius + ' miles of ' + cityName);
 			}
 			var areas = parsed.RECDATA;
-			var sampledAreas = _(areas).sample(7);
+			var sampledAreas = _(areas).sample(4);
 			var areasToSay = _(sampledAreas).pluck('RecAreaName').join(', ');
 			session.attributes.sampledAreas = sampledAreas;
 			session.attributes.count = count;
@@ -148,13 +148,15 @@ var getRecreationArea = function(intent, session, response) {
 	var sampledAreas = session.attributes.sampledAreas;
 	// reset session
 	session.attributes = {};
+	console.log(recAreaName);
 	var match = similarity.findBestMatch(recAreaName, _(sampledAreas).pluck('RecAreaName'));
+	console.log(match);
 	var name = match.bestMatch.target;
 	var matchingRecArea = _(sampledAreas).findWhere({
 		RecAreaName: name
 	});
 	if (!matchingRecArea) {
-		return response.ask('I didn\'t understand that recreation area name.',  'You can ask about ' + _(sampledAreas).pluck('RecAreaName').join(', '));
+		return response.ask('I didn\'t understand that recreation area name.',  'Say, more about ' + _(sampledAreas).pluck('RecAreaName').join(', or '));
 	}
 	session.attributes.currentArea = matchingRecArea;
 	var description = matchingRecArea.RecAreaDescription;
